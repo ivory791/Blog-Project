@@ -30,7 +30,7 @@ gravatar = Gravatar(app, size=100, rating='g', default='retro', force_default=Fa
 
 
 ##CONNECT TO DB
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///posts.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://gqjctnumfjyywe:9336fe876006da53db15'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
